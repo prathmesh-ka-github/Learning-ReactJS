@@ -21,5 +21,5 @@ This repository will store my **ReactJS projects** and other imp files that I us
 I will update this as I progress on making and adding a project that I will make using this ReactJS course.
 
 > ## Projects.
->> 1. Static React page  
->> 1. and more  
+>> - Static React page  
+>> - and more  
