@@ -1,8 +1,11 @@
-# React + Vite
+# Practicing ReactJS  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+In this folder, I will be practicing React's different functionalities and will experiment.  
+My main projects will be store in other folder.  
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## List of current concepts that I learned from the course.
+> - Using React CDN to make React App.
+> - Using Vite to create a React App instead of CRA.
+> - Understanding File system of a React App.
+> - Making React Components.
+> - Making reuseable Card Components.
