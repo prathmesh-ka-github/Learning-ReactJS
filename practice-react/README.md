@@ -9,8 +9,8 @@ To run the project using Vitein dev server locally -
 npm run dev
 ```
 To build the project using Vite -
-```
-npm run build
+``` 
+npm run build 
 ```
 
 To preview the project locally to support Server Side Rendering -
@@ -25,4 +25,7 @@ npm run preview
 > - Understanding File system of a React App.
 > - Making React Components.
 > - Making reuseable Card Components.
-> - Learning How to style the React Card Components.
+> - Learning How to style the React Card Components. 
+>> 1. External Styling.
+>> 1. Module styling.
+>> 1. Inline Styles.
