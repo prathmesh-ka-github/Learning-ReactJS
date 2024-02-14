@@ -1,14 +1,38 @@
-import ReactLogo from "./assets/react.svg"
 import "./card.css"
 
-function Card() {
+function Card(props) {
+    var logo = props.logo
+    var shadow = props.shadow
+
+    var styles = {
+        // filter: `drop-shadow( 1px 1px 20px #${shadow})`
+    }
+
+    function MouseOver(event) {
+        event.target.style.filter = `drop-shadow( 1px 1px 20px #${shadow})`;
+      }
+      function MouseOut(event){
+        event.target.style.filter="drop-shadow( 1px 1px 20px #036f9d00)";
+      }
+
     return (
         <div className="card">
-            <img src={ReactLogo} alt="reactlogo" />
+            <img src={`/src/assets/${logo}`} alt={props.logo} style={styles}
+            onMouseOver={MouseOver}
+            onMouseOut={MouseOut}
+            />
+            
             <h1>
-                ReactJS
+                {props.title}
             </h1>
-            <p>React is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta and a community of individual developers and companies. React can be used to develop single-page, mobile, or server-rendered applications with frameworks like Next.js.</p>
+            <p>{props.desc}</p>
+            {/* <style>
+                .card img:hover {
+
+                    -webkit-filter: drop-shadow( 1px 1px 20px #5ec6f3);
+                    filter: drop-shadow( 1px 1px 20px #5ec6f3);
+                }
+            </style> */}
         </div>
     )
 }

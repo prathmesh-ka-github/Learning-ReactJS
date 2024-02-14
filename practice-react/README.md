@@ -19,17 +19,19 @@ npm run preview
 ```  
 <br>
 
-## List of current concepts that I learned from the course.
+# List of current concepts that I learned from the course.
 > - Using React CDN to make React App.
 > - Using Vite to create a React App instead of CRA.
 > - Understanding File system of a React App.
 > - Making React Components.
 > - Making reuseable Card Components.
 > - Learning How to style the React Card Components.
->   1. External Styling. (good for global styles and small projects).
->   1. Module styling. (good for big projects as we can style individual components)
->   1. Inline Styles. (good for any small components with minimal styling)
+>   1. External Styling. (good for global styles and small projects.)
+>   1. Module styling. (good for big projects as we can style individual components.)
+>   1. Inline Styles. (good for any small components with minimal styling.)
 > - ReactJS Props.
 >   1. What are Props and How to use Props.
 >   1. Using Prop types from prop-types module.
 >   1. Using Default props.
+> - Conditional Rendering.
+

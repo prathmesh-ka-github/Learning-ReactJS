@@ -15,14 +15,14 @@
 }
 
 .card img{
-    animation: spin linear infinite 20s;
     transition: filter 300ms;
 }
 .card img:hover {
     /* -webkit-filter: drop-shadow( 1px 1px 10px #036f9d);
   filter: drop-shadow( 1px 1px 10px #036f9d); */
-    -webkit-filter: drop-shadow( 1px 1px 10px #5ec6f3);
-  filter: drop-shadow( 1px 1px 10px #5ec6f3);
+
+    -webkit-filter: drop-shadow( 1px 1px 20px #5ec6f3);
+  filter: drop-shadow( 1px 1px 20px #20bcff);
 }
 
 .card h1{
@@ -31,13 +31,4 @@
 
 .card p {
     font-size: 15px;
-}
-
-@keyframes spin {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
 }

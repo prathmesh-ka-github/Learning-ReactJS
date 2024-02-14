@@ -32,6 +32,10 @@
 
 .Navbar-container div:nth-child(1) {
     border-bottom: 5px solid #5ec6f3;
+    transition: border 300ms;
+}
+.Navbar-container div:nth-child(1):hover {
+    border-bottom: 5px solid #4cb4e1;
 }
 
 .Navbar-container div {

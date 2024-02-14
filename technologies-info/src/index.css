@@ -23,3 +23,18 @@ body {
   justify-content: center;
   flex-wrap: wrap;
 }
+
+/* ---------------------------------Footer-------------------------------- */
+
+footer {
+  display: flex;
+  background-color: #c3c3c3;
+  width: 100%;
+  justify-content: center;
+  padding: 20px;
+  font-size: 20px;
+}
+
+footer a {
+  color: #3a3a3a;
+}
