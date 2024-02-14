@@ -25,7 +25,8 @@ npm run preview
 > - Understanding File system of a React App.
 > - Making React Components.
 > - Making reuseable Card Components.
-> - Learning How to style the React Card Components. 
->> 1. External Styling. (good for global styles and small projects).
->> 1. Module styling. (good for big projects as we can style individual components)
->> 1. Inline Styles. (good for any small components with minimal styling)
+> - Learning How to style the React Card Components.
+>    1. External Styling. (good for global styles and small projects).
+>    1. Module styling. (good for big projects as we can style individual components)
+>    1. Inline Styles. (good for any small components with minimal styling)
+> - Props and how to use Props.
