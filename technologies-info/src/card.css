@@ -1,0 +1,43 @@
+.card {
+    max-width: 320px;
+    border: 1px solid rgb(95, 95, 95);
+    border-radius: 20px;
+    padding: 20px 20px;
+    text-align: center;
+    box-shadow: 2px 2px 20px #525252;
+    margin: 50px;
+    display: inline-block;
+    transition: transform 400ms;
+    cursor: pointer;
+}
+.card:hover {
+    transform: translate(10px, -10px);
+}
+
+.card img{
+    animation: spin linear infinite 20s;
+    transition: filter 300ms;
+}
+.card img:hover {
+    /* -webkit-filter: drop-shadow( 1px 1px 10px #036f9d);
+  filter: drop-shadow( 1px 1px 10px #036f9d); */
+    -webkit-filter: drop-shadow( 1px 1px 10px #5ec6f3);
+  filter: drop-shadow( 1px 1px 10px #5ec6f3);
+}
+
+.card h1{
+    font-size: 30px;
+}
+
+.card p {
+    font-size: 15px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

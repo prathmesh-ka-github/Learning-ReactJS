@@ -26,6 +26,6 @@ npm run preview
 > - Making React Components.
 > - Making reuseable Card Components.
 > - Learning How to style the React Card Components. 
->> 1. External Styling.
->> 1. Module styling.
->> 1. Inline Styles.
+>> 1. External Styling. (good for global styles and small projects).
+>> 1. Module styling. (good for big projects as we can style individual components)
+>> 1. Inline Styles. (good for any small components with minimal styling)
