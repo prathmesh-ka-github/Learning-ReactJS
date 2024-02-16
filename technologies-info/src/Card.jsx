@@ -12,15 +12,14 @@ function Card(props) {
         event.target.style.filter = `drop-shadow( 1px 1px 20px #${shadow})`;
       }
       function MouseOut(event){
-        event.target.style.filter="drop-shadow( 1px 1px 20px #036f9d00)";
+        event.target.style.filter="drop-shadow( 1px 1px 20px #ffffff00)";
       }
 
     return (
         <div className="card">
             <img src={`/src/assets/${logo}`} alt={props.logo} style={styles}
             onMouseOver={MouseOver}
-            onMouseOut={MouseOut}
-            />
+            onMouseOut={MouseOut}/>
             
             <h1>
                 {props.title}

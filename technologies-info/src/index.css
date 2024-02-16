@@ -5,9 +5,9 @@
   /* background-color: #1c1c1c;
   color: #e4e4e4; */
 
-  background-color: #e4e4e4;
+  background-color: var(--background);
   /* color:  #1c1c1c; */
-  color:  #000;
+  color:  var(--font);
 }
 
 body {
@@ -28,7 +28,7 @@ body {
 
 footer {
   display: flex;
-  background-color: #c3c3c3;
+  background-color: var(--background2);
   width: 100%;
   justify-content: center;
   padding: 20px;
@@ -36,5 +36,5 @@ footer {
 }
 
 footer a {
-  color: #3a3a3a;
+  color: var(--font);
 }

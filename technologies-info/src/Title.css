@@ -22,7 +22,8 @@
     align-items: center;
     font-size: 30px;
     /* background-color: #222222; */
-    background-color: #d1d1d1;
+    background-color: var(--background2);
+    color: var(--font);
     padding: 20px;
     position: sticky;
     position: -webkit-sticky;
@@ -34,10 +35,34 @@
     border-bottom: 5px solid #5ec6f3;
     transition: border 300ms;
 }
+
 .Navbar-container div:nth-child(1):hover {
     border-bottom: 5px solid #4cb4e1;
 }
 
 .Navbar-container div {
     cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.dark-light {
+    position: absolute;
+    right: 30px;
+    cursor: pointer;
+}
+
+.toggle {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+:root {
+    --background: #e4e4e4;
+    --font: #000;
+    --background2: #c3c3c3;
+    --background3: #ffffff00;
 }
