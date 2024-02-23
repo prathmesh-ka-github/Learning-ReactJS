@@ -1,6 +1,17 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-  font-size: 30px;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+}
+.container span {
+    margin: 10px;
+}
+
+.container button {
+    width: 40px;
 }
