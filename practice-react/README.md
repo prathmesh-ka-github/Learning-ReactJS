@@ -37,3 +37,4 @@ npm run preview
 > - Lists Rendering.
 > - React Hooks.  
 >       1. useState Hook.
+> - Click events and Handling click events in ReactJS
