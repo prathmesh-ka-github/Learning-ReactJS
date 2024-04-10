@@ -4,10 +4,15 @@
   font-weight: 400;
   /* background-color: #1c1c1c;
   color: #e4e4e4; */
+  transition: background 300ms;
 
   background-color: var(--background);
   /* color:  #1c1c1c; */
   color:  var(--font);
+}
+
+a {
+    all: unset;
 }
 
 body {
